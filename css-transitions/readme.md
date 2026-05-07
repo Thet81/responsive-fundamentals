@@ -18,3 +18,28 @@
  	transition-property: color;
  	transition-duration: 1s;
  ```
+## Timing function
+
+	- The timing function describes the pace of the transition.
+	- The default value is `ease`, which starts the transition slowly, speeds up in the middle, and slows down again at the end.
+```css
+	transition-timing-function: ease-out;
+```
+
+## Delay
+ - Much like duration, the delay's value is an amount of time.
+ - It specifies the time to *wait* before starting the transition.
+ - We can use the `transition-delay` property like so:
+ ```css
+ 	transition-delay : 200ms;
+ ```
+
+ ## Shorthand
+ - We can use a shorthand version of these four property as follow.
+ 
+ ```css
+ 	transition : color 1.5s linear 0.5s;
+ ```
+
+ - The properties are specified in this order : 
+ 	`transition-property`, `transition-duration`, `transition-timing-function`, `transition-delay`
